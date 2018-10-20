@@ -1,10 +1,13 @@
 import React from 'react';
-import {Route, IndexRoute} from 'react-router';
-import App from './components/App';
-import HomePage from './components/home/HomePage';
+import {Route, Switch} from 'react-router';
+import HomePage from './js/components/container/HomePage';
+import SkillsPage from './js/components/container/SkillsPage';
+import ContactPage from './js/components/container/ContactPage';
 
-export default {
-    <Route path='/' component={App}>
-        <IndexRoute component={HomePage} />
-    </Route>
-};
+export default (
+    <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path="/skills" component={SkillsPage} />
+        <Route path="/contact" component={ContactPage} />
+    </Switch>
+);

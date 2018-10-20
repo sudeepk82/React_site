@@ -2,7 +2,7 @@ import express from 'express';
 import open from 'open';
 import path from 'path';
 import colors from 'colors';
-import config from '../webpack.config.dev';
+import config from '../webpack.config';
 import webpack from 'webpack';
 
 /* eslint-disable no-console */
@@ -12,8 +12,8 @@ const app = express();
 const compiler = webpack(config);
 
 app.use(require('webpack-dev-middleware')(compiler, {
-    hot: true,
-    publicPath: config.output.path
+  hot: true,
+  publicPath: config.output.publicPath
 }));
 
 app.get('*', function(req, res) {
