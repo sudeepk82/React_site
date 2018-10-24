@@ -8,10 +8,8 @@ class SkillsPage extends Component {
 
     render() {
         return(
-            <div className="container-fluid">
+            <div className="container" style={{backgroundColor:'green', padding:'20px 10px'}}>
                 <h1>Skills Page</h1>
-                <NavLink to="/">HOME</NavLink>
-                <NavLink to="/contact">CONTACT ME</NavLink>
             </div>
         );
     }

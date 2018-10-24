@@ -12,10 +12,103 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container" style={{backgroundColor:'green', padding:'20px 10px', width:'100%'}}>
         <h1>It works!!!!!!!!!</h1>
-        <NavLink to="/skills">SKILLS</NavLink>
-        <NavLink to="/contact">CONTACT ME</NavLink>
+        <p>
+          home page.........<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .<br />
+          .........it is.
+        </p>
       </div>
     );
   }

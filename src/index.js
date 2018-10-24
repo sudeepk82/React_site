@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route} from 'react-router';
-import {BrowserRouter, Router} from 'react-router-dom';
-import routes from './routes';
-import Homepage from './js/components/container/HomePage';
+import {BrowserRouter} from 'react-router-dom';
+import App from './js/components/App';
+import './style/css/style.css';
+import './style/js/script';
 
 ReactDOM.render(
-    <BrowserRouter>
-        {routes}
-    </BrowserRouter>,
+    <App />,
     document.getElementById('app')
 );

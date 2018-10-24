@@ -7,7 +7,7 @@ import ContactPage from './js/components/container/ContactPage';
 export default (
     <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route path="/skills" component={SkillsPage} />
-        <Route path="/contact" component={ContactPage} />
+        <Route exact path="/skills" component={SkillsPage} />
+        <Route exact path="/contact" component={ContactPage} />
     </Switch>
 );

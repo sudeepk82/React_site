@@ -8,10 +8,8 @@ class ContactPage extends Component {
 
     render() {
         return(
-            <div className="container-fluid">
+            <div className="container" style={{backgroundColor:'green', padding:'20px 10px'}}>
                 <h1>Contact Me!!!</h1>
-                <NavLink to="/">HOME</NavLink>
-                <NavLink to="/skills">SKILLS</NavLink>
             </div>
         );
     }
